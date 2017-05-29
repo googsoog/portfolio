@@ -1,0 +1,98 @@
+
+.portfolio__caption {
+padding-left: 20px;
+margin-bottom: 20px;
+}
+
+
+.portfolio__list{
+	font-size: 0;
+}
+
+.portfolio__link{
+	display: block;
+	position: relative;
+}
+
+.portfolio__item{
+	width: 220px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 20px 20px;
+	border-radius: 10px;
+ 	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+ 	overflow: hidden;
+ 	background-color: #fff;
+}
+
+.portfolio__item:hover{
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  	.portfolio__work-caption{
+	color: $red;
+	}
+}
+
+.portfolio__pic{
+	display: block;
+	position: absolute;
+	top:0;
+	left: -9999px;
+}
+
+.portfolio__bg {
+	height: 172px;
+}
+
+.portfolio__bg--p1{
+background: url("../img/content/p_1.jpg") no-repeat 50% 50%;
+background-size: cover;
+}
+
+.portfolio__bg--p2{
+background: url("../img/content/p_2.jpg") no-repeat 50% 50%;
+background-size: cover;
+} 
+
+.portfolio__bg--p3{
+background: url("../img/content/p_3.jpg") no-repeat 50% 50%;
+background-size: cover;
+}
+
+.portfolio__bg--p4{
+background: url("../img/content/p_4.jpg") no-repeat 50% 50%;
+background-size: cover;
+}
+
+.portfolio__bg--p5{
+background: url("../img/content/p_5.jpg") no-repeat 50% 50%;
+background-size: cover;
+}
+
+.portfolio__work{
+	padding: 16px 20px 16px;
+	line-height: 1.2;	
+}
+
+.portfolio__work-caption{
+	color: $blue;
+	font-size: 21px;
+	margin-bottom: 1px;
+}
+ 
+.portfolio__work-desc {
+	font-family: $light;
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+
+.portfolio__work-type {
+	font-size: 14px;
+	font-family: $bold;
+	color: $lightgrey;
+	margin-bottom: 0;
+	max-width: 185px;	
+}
+
+.portfolio__work-icon{
+	font-size: 18px;
+}

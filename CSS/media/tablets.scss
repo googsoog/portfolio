@@ -1,0 +1,193 @@
+@media only screen and (max-width: 768px) {
+
+	//content+adjustment
+
+	.container {
+	max-width: 480px;
+	padding: 0 10px;
+	}
+
+	.wrapper:after{
+			content: "";
+			display: block;
+			height: 94px;
+	}	
+
+	.footer{
+		height: 94px;
+		margin-top: -94px;
+	}
+
+	.footer__info{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.design {
+		margin: 0 auto; 
+		padding-top: 4px;
+		line-height: 40px;
+	}
+
+	.soc {
+		float: none;
+		width: 100%;
+		height: 54px;
+		text-align: center;	
+	}
+
+	.soc__item {
+		height: 50px;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.soc__link {
+	 	margin: 0 0 0 5px;
+	}
+
+
+.contact{
+	height: 31px;
+	font-size: 40px;
+	color: $blue;
+	margin: 6px -6px 0 0;
+	     &:hover{ color: $red;
+	     	.contact__list {
+		right: 100%;
+		margin-left: -125px;
+		margin-top: -10px;
+  	}	
+
+  	.contact__corner{
+  		left: 50%;
+  		margin-top: -20px;
+    }	
+}
+}
+
+.contact__block-icon{
+	display: block;
+	position: relative;
+	cursor: pointer;
+}
+
+.contact__list{
+	line-height: 1.42;
+}
+
+
+
+.contact__block{
+	display: none;
+		}
+
+
+//about
+
+	.about__right, .about__left{
+		width: 100%;
+		float: none;
+	}
+
+	.about__info {
+		margin: 0 20px;
+		max-height: 370px;
+	}
+
+	.caption {
+		text-align: center;
+		margin-bottom: 2px;
+	}
+
+	.about__photo {
+		margin: 0 auto 3px;
+	}
+
+	.about__load{
+		text-align: center;
+		margin-bottom: 90px;
+	}
+
+
+	//sidebars
+
+	.aside {
+		margin-bottom: 38px;
+	}
+
+	.nav__list{
+		display: -webkit-flex;
+		justify-content: space-between;
+		-webkit-justify-content: space-between;
+		display: flex;
+	}
+
+	.nav__item{
+		margin-right: 0;
+		text-align: center;		
+	}
+ 
+ 	.nav__link .fa {
+		margin-right: 0px;
+	}
+
+
+
+ //career
+		
+	
+
+	.career__caption {
+		text-align: center;
+	}
+
+	.career__left{
+		width: 100%;
+	}
+
+ 	.career__right{
+ 		width: 100%;
+	}
+
+	.career__photo {
+		margin: 0 auto;
+		width: 230px;
+  		height: 230px;
+  	}	
+	.career__list{
+		margin-left: 0;
+		padding-left: 0;
+	}
+	
+	.career__block {
+		max-width: 100%;
+		margin: 20px; 
+	}
+
+	.career__year, .career__year:after, .career__block::after, .career__block::before {
+		display: none;
+	}
+
+//portfolio
+
+	.portfolio__caption {
+		margin-bottom: 19px;
+	}
+
+	.portfolio__list{
+		margin-left:-18px;
+	}
+
+	.portfolio__item{
+	width: 220px;
+	margin: 0 0 20px 18px;
+	}
+
+	.portfolio__bg {
+	height: 172px;
+	}
+
+}

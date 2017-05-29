@@ -1,0 +1,42 @@
+
+.about{
+	@extend %clearfix;
+}
+
+.about__left{
+	width: 340px;
+	float: left;
+	text-align: center;
+}
+
+.about__photo {
+	border: 5px solid #fff;
+	border-radius: 50%;
+}
+
+.about__right{
+	width: 380px;
+	float: right;
+}
+
+.about__text {
+	font-family: $light;
+	color: #646464;
+	margin-bottom: 60px;
+	max-height: 320px;
+	margin-bottom: 60px;
+	overflow: auto; 
+		& p {
+			margin-bottom: 7px;
+			line-height: 1.45;
+		}
+}
+
+.about__load{
+	text-align: right;
+	margin-bottom: 80px;
+}
+
+.fa-download{
+	margin-right: 10px;
+}

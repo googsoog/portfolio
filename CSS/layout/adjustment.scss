@@ -1,0 +1,95 @@
+html {
+	height: 100%;
+	width: 100%;
+	cursor: default;
+}
+
+ body {
+ 	height: 100%;
+	width: 100%;
+	background-color: $fonbase;
+	font-family: $regular, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: $darkgrey;
+	font-size: 18px;
+	line-height: 1.42;
+}
+
+*, *:before, *:after{
+ 	box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+ 	padding: 0;
+	margin: 0;
+ }
+
+*:focus, *:active, *:hover{
+	outline: none;
+}
+
+img{
+	max-width: 100%;
+	max-width: 100%;
+	border: none;
+}
+
+ul, ol{
+	margin: 0;
+	padding: 0;
+}
+ 
+li{
+	list-style: none;
+}
+
+p, h1, h2, h3{
+	margin: 0;
+	font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	background: transparent;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+%clearfix{
+	&:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+.wrapper{
+	@extend %clearfix;
+	min-width: $width-content + 20px;
+	min-height: 100%;
+	overflow: hidden;
+		&:after{
+	content: "";
+	display: block;
+	height: $height-footer;
+	}	
+}
+
+.container {
+	@extend %clearfix;
+	max-width: $width-content;
+	margin: 0px auto;
+	height: 100%;
+	
+}
+
+.footer{
+	min-width: $width-content + 20px;
+	height: $height-footer;
+	margin-top: -$height-footer;
+}
+

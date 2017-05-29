@@ -1,0 +1,177 @@
+@media screen and (max-width: 480px) {
+
+	.container {
+		max-width: 95%;
+		padding: 0px;
+	}
+
+	.wrapper:after{
+		content: "";
+		display: block;
+		height: 114px;
+	}	
+
+	.head-container{
+		line-height: 1.5;
+	}
+
+	.user__name {
+		font-size: 14px;
+		margin: 10px 0 10px 19px;
+		max-width: 100px;
+	}
+
+
+
+.footer{
+		height: 114px;
+		margin-top: -114px;
+	}
+
+	.footer__info{
+		height: 100%;
+	}
+
+	.design {
+		width: 95%;
+		line-height: 1.5;
+		margin: 15px 0 7px 0;
+	}
+
+	.soc {
+		height: 48px;
+	}
+
+	.soc__item {
+		height: 48px;
+	}
+	
+
+//hello
+.hello__info{
+	width: 95%;
+}
+
+
+//sidebars
+
+	.section{
+		margin-top: 20px;
+	}
+
+	.aside {
+	margin-bottom: 17px;
+	}
+
+	.nav__item{
+		font-size: 14px;
+	}
+
+	.nav__link{
+		line-height: 14px;
+	}
+
+	.nav__link .fa {
+		display: none;
+	}
+
+
+	.about__photo {
+		margin: 0 auto 2px;
+		width: 150px;
+		height: 150px;
+	}
+ 
+	.about__text {
+		margin-bottom: 26px;
+		font-size: 16px;
+		overflow: visible;
+		max-height: 100%;
+			& p{
+				line-height: 1.5;
+			}
+	}
+
+	.about__info {
+		margin: 0 0 30px;
+	}
+
+.about__load{
+		margin-bottom: 30px;
+	}
+
+//career
+
+.career{
+		margin-bottom: 20px;
+	}
+
+ .career__work {
+ 	font-size: 18px;
+ }
+
+.career__post, .career__year {
+	font-size: 16px;
+}
+
+.career__block {
+		margin: 0 0 20px 0; 
+	}
+
+	.career__caption {
+		margin: -2px 0 7px;
+
+	}
+
+	.career__photo {
+		width: 220px;
+  		height: 220px;
+  		margin-bottom: 20px;
+  	}	
+
+  	.career__block {
+		padding: 15px 22px 12px;
+	}
+
+	.career__work, .career__post {
+ 		line-height: 1.5;
+ 	}
+
+//portfolio
+
+.portfolio{
+		margin-bottom: 0px;
+	}
+
+	.portfolio__caption {
+		margin-bottom: 20px;
+		margin-top: 35px;
+	}
+
+	.portfolio__list{
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.portfolio__item{
+		width: 100%;
+		margin: 0 0 21px 0 ;
+	}
+
+.portfolio__bg{
+		height: 235px;
+	}
+
+
+.portfolio__work-caption {
+    font-size: 24px;
+}
+
+.portfolio__work{
+	padding: 12px 19px 16px;	
+}
+
+.portfolio__work-desc, .portfolio__work-type {
+	font-size: 16px;
+}
+}

@@ -1,0 +1,56 @@
+.footer{
+	background-color: $darkgrey;
+	overflow: hidden;
+}
+
+.footer__info{
+	float: left;
+}
+
+.design {
+	font-family: $light;
+	color: #9c9c9c;
+	font-size: 14px;
+	display: inline-block;
+	line-height: $height-footer;
+	vertical-align: middle;
+}
+
+.soc {
+	height: $height-footer;
+	float: right;
+}
+
+.soc__list {
+	@extend %clearfix;
+}
+
+.soc__item {
+	height: $height-footer;
+	float: left;
+}
+
+.soc__link {
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 10px 7px;
+}
+
+.soc__link:hover{
+	z-index: 5;
+	-ms-background-position-y: -30px;
+	background-position-y: -30px;
+}
+
+.soc__link--FB {
+	background: url('../img/icons/sprite.png') 0 0;
+}
+
+.soc__link--VK {
+	background: url('../img/icons/sprite.png') -30px 0;
+}
+
+.soc__link--TW {
+	background: url('../img/icons/sprite.png') -60px 0;
+}
